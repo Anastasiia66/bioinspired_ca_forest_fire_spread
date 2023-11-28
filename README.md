@@ -1,12 +1,12 @@
 ## Simulating Wild fires in CAPyLE
 
-Added new cellular automata description `wildfire_2d.py` that simulates spread of wild fire.
+Added new cellular automata description `forest_fire_spread.py` that simulates spread of wild fire.
 
 <div display="flex" flex-direction="row" >
-![Example GIF](Gif1_north_prevailing.gif)
+<img src="https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/blob/main/Gif1_north_prevailing%20.gif" width="300" height="300"/>
 </div>
 
-Fire spreading on a 2D grid
+Fire spreading on a 2D grid with wind effect and speed set to the deafault values. (Prevailing north wind and velovity 1)
 
 Our model defines terrain types with diffrent propabilities of catching a fire and diffrent the burn time.
 
