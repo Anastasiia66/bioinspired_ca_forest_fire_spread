@@ -2,9 +2,9 @@
 
 Added new cellular automata description for `forest_fire_spread.py` that simulates spread of forest fire caused by incinerator or/and powerplant.
 
-<div display="flex" flex-direction="row" >
+
 ![Gif1_north_prevailing ](https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/assets/84929481/6d381b87-80c3-4918-a7dd-ba70782ddcaf)
-</div>
+
 
 Simulation of the fire spreading on a 2D grid with the prevailing north wind effect. (Wind direction set to North and wind velocity set to 1)
 
