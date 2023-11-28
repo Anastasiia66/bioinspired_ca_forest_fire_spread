@@ -1,32 +1,31 @@
-## Simulating Wild fires in CAPyLE
+# Simulating the spread of the forest fire in CAPyLE
 
-Added new cellular automata description `forest_fire_spread.py` that simulates spread of wild fire.
+Added new cellular automata description for `forest_fire_spread.py` that simulates spread of forest fire caused by incinerator or/and powerplant.
 
 <div display="flex" flex-direction="row" >
 <img src="https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/blob/main/Gif1_north_prevailing%20.gif" width="300" height="300"/>
 </div>
 
-Fire spreading on a 2D grid with wind effect and speed set to the deafault values. (Prevailing north wind and velovity 1)
+Simulation of the fire spreading on a 2D grid with the prevailing north wind effect. (Wind direction set to North and wind velocity set to 1)
 
-Our model defines terrain types with diffrent propabilities of catching a fire and diffrent the burn time.
+Our model defines terrain types with different propabilities of catching a fire and different burn times.
 
-- Dense forest (green colour), difficult to ignite but can burn for up to one month, 
-- Chaparral (yellow colour), catches fire quite easily, can burn for a period of several days.
-- Canyon (pink-ish colour), very easy to catch fire, but burns for only several hours
-- Lake (blue colour), can't be ignited
+- Dense forest (dark green colour), difficult to ignite but can burn for up to one month (30 days = 180 generations). 
+- Chaparral (light green colour), catches fire quite easily, can burn for a period of several days (7 days = 42 generations).
+- Canyon (yellow colour), very easy to catch fire, but burns for only several hours (12 hours = 3 generations).
+- Lake (blue colour), can't be ignited.
+- Fire break (brown colour), can't be ignited.
+
+## Instructions to run the forest_fire_spread
+### How to set the wind direction and velocity
 
 
-Our model takes into acount wind direction and velocity affecting spread of fire.
 
-Once the fire reaches the town, simulaton reports results in `results/` directory: 
-- `.json` file with simulation parameters
-- grid state when fire reached the town
+Our model takes into acount wind direction and velocity affecting spread of fire. The model can also simulate short intervention of dropping 12.5 km^2 of water in different intervention times and different areas. 
 
-Our model can be used to simulate firebrigade interventions. To simulate water drops specify time of intervention and bouding box coorinates in `wildfire_2d.py`. For example:
+Once the fire reaches the town, simulation reports results in the command promt. 
 
-![wild_fire_water_drop](https://user-images.githubusercontent.com/38562250/213927046-4d687bd9-9a4a-4b3d-9906-b34a63a63afb.png)
 
-Initial grid is defined by `grid.csv`.
 
 # CAPyLE
 CAPyLE is a cross-platform teaching tool designed and built as part of a final year computer science project. It aims to aid the teaching of cellular automata and how they can be used to model natural systems.
