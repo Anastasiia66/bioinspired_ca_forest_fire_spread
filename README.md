@@ -24,6 +24,8 @@ The model can be used to explore different scenarios of the starting point of th
 The section of code responsible to adjust the short term intervention:
 ![image](https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/assets/84929481/0c9d7200-82c6-4370-8d6d-6ee8598b618b)
 
+After setting the desired values run the code as usual.
+
 ### 2. How to set the wind direction and velocity
 Our model takes into acount wind direction and velocity affecting spread of fire. In forest_fire_spread.py there are the velocity constant `V` and the wind direction constant `WIND_DIR` that can be adjusted simulationg different wind effect. After setting the constants to their new values make sure to save and open the file in Capyle again. 
 
@@ -34,7 +36,7 @@ The lines of code to adjust the wind direction and velocity:
 The model can simulate short intervention of dropping 12.5 km^2 of water in the different intervention times and different areas. The short intervention can be activated by setting the boolean constant `SHORT_TERM_INTERVENTION` to True in line 56. 
 
 Set the `CHOSEN_SHORT_TERM_INT` to `WATER_DROP_INCINERATOR` (drops water on to the incinerator on `INTERVENTION_TIME_INCINERATOR = 15`) or to 
-`WATER_DROP_TOWN` (drops water close to the town on `INTERVENTION_TIME_INCINERATOR = 300`). The intervention time and coordinates can be also adjusted for each short term intervention. (Set differnet coordinates for `WATER_DROP_COORDS_INCINERATOR` and `WATER_DROP_COORDS_TOWN` to cahange the water drop place)
+`WATER_DROP_TOWN` (drops water close to the town on `INTERVENTION_TIME_INCINERATOR = 300`). The intervention time and coordinates can be also adjusted for each short term intervention. (Set different coordinates for `WATER_DROP_COORDS_INCINERATOR` and `WATER_DROP_COORDS_TOWN` to change the water drop place)
 
 The section of code responsible to adjust the short term intervention:
 ![image](https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/assets/84929481/4cc86c90-31ed-41b6-955b-f7b544d35dd8)
