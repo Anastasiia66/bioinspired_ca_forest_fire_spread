@@ -4,6 +4,7 @@ Added new cellular automata description for `forest_fire_spread.py` that simulat
 
 <div display="flex" flex-direction="row" >
 <img src="https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/blob/main/Gif1_north_prevailing%20.gif" width="300" height="300"/>
+<img src="https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/blob/main/WhatsApp%20Image%202023-11-28%20at%2022.16.15.jpeg" width="300" height="300"/>
 </div>
 
 Simulation of the fire spreading on a 2D grid with the prevailing north wind effect. (Wind direction set to North and wind velocity set to 1)
