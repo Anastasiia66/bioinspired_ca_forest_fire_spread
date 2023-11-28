@@ -19,7 +19,7 @@ Our model defines terrain types with different propabilities of catching a fire 
 ## Instructions to run the forest_fire_spread.py
 
 ### 1. How to select the start point of the fire
-The model can be used to explore different scenarios of the starting point of the fire ignition. Set the `CHOSEN_START_IGNITION` to `POWERPLANT_IGNITE` (to simulate the fire starting at the powerplant) or `INCINERATOR_IGNITE` (to simulate the fire starting at the incinerator) or `BOTH_IGNITE` (to simulate the fire starting at both powerplant and the incinerator).
+The model can be used to explore different scenarios of the starting point of the fire ignition. Set the `CHOSEN_START_IGNITION` to `POWERPLANT_IGNITE` (to simulate the fire starting at the powerplant) or `INCINERATOR_IGNITE` (to simulate the fire starting at the incinerator) or `BOTH_IGNITE` (to simulate the fire starting at both powerplant and the incinerator). (line 46)
 
 The section of code responsible to adjust the short term intervention:
 ![image](https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/assets/84929481/0c9d7200-82c6-4370-8d6d-6ee8598b618b)
@@ -31,6 +31,8 @@ Our model takes into acount wind direction and velocity affecting spread of fire
 
 The lines of code to adjust the wind direction and velocity:
 ![image](https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/assets/84929481/5247fae2-c451-4383-a4b4-3bfff331326a)
+
+After setting the desired values run the code as usual.
 
 ### 3. How to set and run the short term intervention  
 The model can simulate short intervention of dropping 12.5 km^2 of water in the different intervention times and different areas. The short intervention can be activated by setting the boolean constant `SHORT_TERM_INTERVENTION` to True in line 56. 
@@ -56,7 +58,7 @@ After setting the desired values run the code as usual.
 
 ### 5. How to look for the results of each simulation
 
-Once the CA configuration is applied the program reports the results in the command promt:
+Once the CA configuration is applied the program reports the results (how many generation it took for the fire to reach the town) in the command promt:
 
 ![image](https://github.com/Anastasiia66/bioinspired_ca_forest_fire_spread/assets/84929481/02dc8944-6426-4b96-a50c-2d496661fce0)
 
