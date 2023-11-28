@@ -3,9 +3,7 @@
 Added new cellular automata description `wildfire_2d.py` that simulates spread of wild fire.
 
 <div display="flex" flex-direction="row" >
-<img src="https://user-images.githubusercontent.com/38562250/213926036-304e2eed-466c-458a-91dd-854516da1c14.png" width="300" height="300"/>
-<img src="https://user-images.githubusercontent.com/38562250/213926267-316b8127-7599-4080-a4b9-7477bae909ba.png" width="300" height="300"/>
-<img src="https://user-images.githubusercontent.com/38562250/213926272-22c108da-c060-4a0c-9d26-f246c68ae311.png" width="300" height="300"/>
+![Example GIF](Gif1_north_prevailing.gif)
 </div>
 
 Fire spreading on a 2D grid
